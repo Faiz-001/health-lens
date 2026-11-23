@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cobalt: #2335f0;
+  --color-cobalt-deep: #1a28c4;
+  --color-ink: #0e1330;
+  --color-paper: #f4f6fb;
+  --color-marker: #ffe243;
+  --color-signal: #d92d20;
+  --color-verified: #0f7b4f;
+  --color-muted: #566079;
+  --color-printed: #c3caff;
+
+  --font-display: "Bricolage Grotesque", "Atkinson Hyperlegible", system-ui, sans-serif;
+  --font-body: "Atkinson Hyperlegible", system-ui, sans-serif;
+  --font-label: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-cobalt);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.on-cobalt :focus-visible {
+  outline-color: var(--color-marker);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
