@@ -4,8 +4,7 @@
 
 HealthLens turns confusing prescriptions, drug leaflets and lab results into simple explanations that anyone can read, in languages such as English, Nigerian Pidgin, Yoruba, Hausa and Igbo. It checks medicine information against official drug labels, so explanations aren't based on an AI's guess alone.
 
-- **Live demo:** `<add your deployed link>`
-- **Demo video:** `<optional: add link>`
+- **Live demo:** `(https://health-lens-wine.vercel.app)`
 - **Hackathon:** Acodemic x KeebsforWater Global SDG Hackathon
 
 ## The problem
